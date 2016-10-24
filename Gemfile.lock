@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    fortune_gem (0.0.9)
+    ruby_cowsay (0.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  fortune_gem
+  ruby_cowsay
+
+RUBY VERSION
+   ruby 2.0.0p648
+
+BUNDLED WITH
+   1.13.6
