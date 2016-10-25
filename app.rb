@@ -15,5 +15,6 @@ require 'fortune_gem'
 # end
 
 get '/' do
-  "Hello, world"
+  # "Hello, world"
+  Cow.new.say FortuneGem.give_fortune({:max_length => 80})
 end
