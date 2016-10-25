@@ -2,7 +2,7 @@ require 'socket'
 require 'ruby_cowsay'
 require 'fortune_gem'
 
-server = TCPServer.new('0.0.0.0', 8000)
+server = TCPServer.new('0.0.0.0', 80)
 
 loop do
   socket = server.accept
