@@ -16,7 +16,7 @@ require 'fortune_gem'
 
 get '/' do
   # "Hello, world"
-  r = '<div style="white-space:pre-wrap">'
+  r = '<pre>'
   r += Cow.new.say(FortuneGem.give_fortune({:max_length => 80}))
-  r += '</div>'
+  r += '</pre>'
 end
