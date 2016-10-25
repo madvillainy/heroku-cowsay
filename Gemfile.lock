@@ -2,7 +2,12 @@ GEM
   remote: https://rubygems.org/
   specs:
     fortune_gem (0.0.9)
+    rack (1.6.4)
     ruby_cowsay (0.1.2)
+    sinatra (1.1.0)
+      rack (~> 1.1)
+      tilt (~> 1.1)
+    tilt (1.4.1)
 
 PLATFORMS
   ruby
@@ -10,9 +15,7 @@ PLATFORMS
 DEPENDENCIES
   fortune_gem
   ruby_cowsay
-
-RUBY VERSION
-   ruby 2.0.0p648
+  sinatra (= 1.1.0)
 
 BUNDLED WITH
    1.13.6
